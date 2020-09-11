@@ -12,7 +12,13 @@
           <h1>Up & Running with PHP</h1>
           
           <div class="code-content">
-          
+          <?php
+            echo "Hello wordpress!"
+          ?>
+          <hr />
+          <?php
+            echo "I'll sucessfully!"
+          ?>
           </div>
     </div>
     
