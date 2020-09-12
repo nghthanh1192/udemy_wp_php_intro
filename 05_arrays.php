@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to PHP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container">
+          <h1>Up & Running with PHP</h1>
+          
+          <div class="code-content">
+          <?php
+            $fruits = array('apple', 'orange', 'melon', 'banana');
+
+            // add 1 item to array    
+            array_push($fruits, 'pear');
+
+            echo $fruits[4];
+
+            // detroy positon 1 item in array
+            unset($fruits[1]);    
+        
+            // dump infornation variable (type, value)
+            echo "<pre>";
+            var_dump($fruits);
+            echo "</pre>";
+
+            // this is statement is show what var_dump($fruits[1]) = null 
+            echo $fruits[1];
+
+          ?>
+          </div>
+    </div>
+    
+  </body>
+</html>
